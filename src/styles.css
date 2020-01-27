@@ -1,0 +1,57 @@
+.options {
+    padding: 20px;
+    background-color: rgba(191, 191, 191, 0.15);
+    margin-top: 20px;
+  }
+  
+  .caption {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .option {
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  .dx-scheduler-header.dx-widget {
+    display: none;
+  }
+  
+  .dx-scrollable-native.dx-scrollable-vertical,
+  .dx-scrollable-native.dx-scrollable-vertical .dx-scrollable-container {
+    overflow-y: hidden;
+  }
+  
+  .dx-scheduler-date-table-cell,
+  .dx-scheduler-header-panel-cell,
+  .dx-scheduler-time-panel-cell,
+  .dx-scheduler-group-header {
+    border-top: none;
+  }
+  
+  .dx-scheduler-appointment.dx-state-disabled {
+    opacity: 1 !important;
+  }
+  
+  .dx-state-hover {
+    background: white;
+  }
+  
+  .dx-scheduler-all-day-table-cell.dx-state-hover,
+  .dx-scheduler-date-table-cell.dx-state-hover {
+    background-color: white !important;
+    color: #959595 !important;
+  }
+  
+  /* .dv-state-focused dx-scheduler-focused-cell; */
+  
+  .dx-scheduler-all-day-table-cell.dx-scheduler-focused-cell,
+  .dx-scheduler-date-table-cell.dx-scheduler-focused-cell {
+    box-shadow: none !important;
+  }
+  
+  .dx-state-active {
+    background: none !important;
+  }
+  
